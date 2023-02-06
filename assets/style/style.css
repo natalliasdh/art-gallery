@@ -1,0 +1,139 @@
+                                * {
+                                    padding: 0;
+                                    margin: 0;
+                                }
+                                
+                                html,
+                                body {
+                                    height: 100%;
+                                }
+                                
+                                body {
+                                    display: flex;
+                                    flex-direction: column;
+                                }
+                                
+                                .content {
+                                    flex: 1 0 auto;
+                                }
+                                
+                                .footer {
+                                    flex-shrink: 0;
+                                }
+                                
+                                .main-image {
+                                    background-image: url(../images/image-hero@2x.jpg);
+                                    background-size: 100%;
+                                    width: 100%;
+                                    height: 0;
+                                    padding-top: 64%;
+                                    background-repeat: no-repeat;
+                                }
+                                
+                                h1 {
+                                    font-family: 'Big Shoulders Display';
+                                    font-weight: 900;
+                                    font-size: 60px;
+                                    line-height: 55px;
+                                    text-transform: uppercase;
+                                    margin-bottom: 32px;
+                                }
+                                
+                                .introduction {
+                                    margin-top: 32px;
+                                    padding: 0 16px;
+                                }
+                                
+                                p {
+                                    font-family: 'Outfit', sans-serif;
+                                    color: #444444;
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                    font-weight: 300;
+                                    margin-bottom: 32px;
+                                }
+                                
+                                .location {
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+                                    cursor: pointer;
+                                }
+                                
+                                .our-location {
+                                    background-color: black;
+                                    color: white;
+                                    font-family: 'Big Shoulders Display';
+                                    font-size: 20px;
+                                    letter-spacing: 3px;
+                                    padding: 24px 32px;
+                                    text-transform: uppercase;
+                                }
+                                
+                                .arrow-r {
+                                    padding: 24px;
+                                    background-color: #D5966C;
+                                }
+                                
+                                @media only screen and (min-width:845px) {
+                                    .modern {
+                                        display: flex;
+                                        flex-direction: row;
+                                    }
+                                    .introduction {
+                                        position: relative;
+                                        left: -55px;
+                                    }
+                                    .main-image {
+                                        background-image: url(../images/image-hero-tablet.jpg);
+                                        padding-top: 160%;
+                                    }
+                                    h1 {
+                                        font-size: 70px;
+                                        line-height: 65px;
+                                        margin-top: 145px;
+                                        margin-bottom: 48px;
+                                    }
+                                    @media only screen and (min-width:1350px) {
+                                        .modern {
+                                            display: flex;
+                                            flex-direction: row;
+                                            width: 100%;
+                                        }
+                                        .introduction {
+                                            position: relative;
+                                            left: -850px;
+                                            display: flex;
+                                            flex-direction: row;
+                                            align-items: center;
+                                            justify-content: space-between;
+                                            width: 30%;
+                                        }
+                                        .main-image {
+                                            background-image: url(../images/image-hero-desktop.jpg);
+                                            padding-top: 0;
+                                            padding-left: 0;
+                                            background-size: auto 800px;
+                                            background-color: black;
+                                            background-position: right;
+                                            height: 800px;
+                                            width: 70%;
+                                        }
+                                        h1 {
+                                            font-size: 96px;
+                                            color: white;
+                                            mix-blend-mode: difference;
+                                            line-height: 88px;
+                                            min-width: 514px;
+                                            margin-right: 246px;
+                                            margin-top: 0px;
+                                        }
+                                        p {
+                                            font-size: 22px;
+                                            line-height: 32px;
+                                        }
+                                        .text-and-button {
+                                            min-width: 350px;
+                                        }
+                                    }
+                                }
