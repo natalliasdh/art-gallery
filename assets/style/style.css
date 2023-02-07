@@ -202,3 +202,106 @@
                                         width: 650px;
                                     }
                                 }
+                                
+                                .bench {
+                                    background-image: url(../images/image-bench.jpg);
+                                    background-size: 100%;
+                                    width: 100%;
+                                    padding-top: 139%;
+                                    height: 0;
+                                    margin-bottom: 16px;
+                                    background-repeat: no-repeat;
+                                }
+                                
+                                .museum {
+                                    background-image: url(../images/image-museum.jpg);
+                                    background-size: 100%;
+                                    width: 100%;
+                                    padding-top: 58%;
+                                    height: 0;
+                                    margin-bottom: 16px;
+                                    background-repeat: no-repeat;
+                                }
+                                
+                                .inspired {
+                                    padding: 0 16px;
+                                }
+                                
+                                .inspired-text {
+                                    background-color: black;
+                                    padding: 48px 24px;
+                                }
+                                
+                                .inspired-text h2,
+                                .inspired-text p {
+                                    color: white;
+                                }
+                                
+                                @media only screen and (min-width:768px) {
+                                    .inspired {
+                                        padding: 0 0;
+                                    }
+                                    .inspired-all {
+                                        display: flex;
+                                        flex-direction: row;
+                                        padding: 0 39px;
+                                        justify-content: space-between;
+                                        margin: 0;
+                                    }
+                                    .bench {
+                                        background-image: url(../images/image-bench.jpg);
+                                        background-size: cover;
+                                        background-position: center;
+                                        width: 100%;
+                                        padding-top: 0;
+                                        height: 720px;
+                                        margin-bottom: 0;
+                                        flex-basis: 60%;
+                                        margin-right: 11px
+                                    }
+                                    .come-and-be {
+                                        height: 720px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: space-between;
+                                        flex-basis: 40%;
+                                    }
+                                    .museum {
+                                        background-image: url(../images/image-museum.jpg);
+                                        background-size: cover;
+                                        background-position: center;
+                                        width: 100%;
+                                        padding-top: 0;
+                                        height: 60%;
+                                        margin-bottom: 0;
+                                        background-repeat: no-repeat;
+                                    }
+                                    .inspired-text {
+                                        margin-top: 11px;
+                                        height: 40%;
+                                        padding: 85px 28px;
+                                    }
+                                    .inspired {
+                                        margin-bottom: 120px;
+                                    }
+                                }
+                                
+                                @media only screen and (min-width:1200px) {
+                                    .inspired-all {
+                                        padding: 0 165px;
+                                    }
+                                    .bench {
+                                        background-image: url(../images/image-bench-desktop.jpg);
+                                        margin-right: 30px
+                                    }
+                                    .museum {
+                                        background-image: url(../images/image-museum-desktop.jpg);
+                                    }
+                                    .inspired-text {
+                                        margin-top: 30px;
+                                        padding: 65px 48px;
+                                    }
+                                    .inspired {
+                                        margin-bottom: 180px;
+                                    }
+                                }
