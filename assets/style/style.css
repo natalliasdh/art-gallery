@@ -355,3 +355,16 @@
                                         margin: 0 280px 0 0;
                                     }
                                 }
+                                
+                                a {
+                                    text-decoration: none;
+                                    color: white;
+                                }
+                                
+                                .location:hover>.our-location {
+                                    background-color: #D5966C;
+                                }
+                                
+                                .location:hover>.arrow-r {
+                                    background-color: black;
+                                }
